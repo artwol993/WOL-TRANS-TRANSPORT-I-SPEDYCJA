@@ -14,7 +14,7 @@
 } 
 
 .image-1 {
-  background-image: url("./img/w-t1.jpg");
+  background-image: url("./img/welcome1.jpg");
 }
 
 .image-2 {
@@ -23,7 +23,7 @@
 
 @media (max-width: 576px) {
   .photo {
-    height:240px;
+    height:340px;
   }
 
 }
