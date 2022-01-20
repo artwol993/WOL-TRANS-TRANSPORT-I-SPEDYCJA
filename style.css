@@ -11,15 +11,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-} 
-
-.image-1 {
-  background-image: url("./img/1.jpg");
-}
-
-.image-2 {
   background-image: url("./img/w-t.jpg");
-}
+} 
 
 @media (max-width: 576px) {
   .photo {
