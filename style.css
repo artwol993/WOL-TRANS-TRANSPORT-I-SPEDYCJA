@@ -6,7 +6,7 @@
 }
 
 .photo {
-  height: 1000px;
+  height: 1100px;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +14,7 @@
 } 
 
 .image-1 {
-  background-image: url("./img/welcome1.jpg");
+  background-image: url("./img/2.jpg");
 }
 
 .image-2 {
@@ -23,17 +23,15 @@
 
 @media (max-width: 576px) {
   .photo {
-    height:340px;
+    height:350px;
   }
-
 }
 
 
 @media (max-width: 768px) {
   .photo {
-    height: 650px;
+    height: 600px;
   }
-
 }
 
 
