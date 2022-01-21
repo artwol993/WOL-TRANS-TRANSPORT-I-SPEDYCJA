@@ -38,7 +38,7 @@
     </div>
   </nav>
 
-  <div class="main-container" style="font-size: medium;">
+  <div class="main-container">
 
     <!--Welcome-->
     <section id="welcome">
@@ -52,8 +52,8 @@
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+            <div class="card bg-dark text-light " style="height: 18rem;">
+              <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
                 </div>
@@ -66,8 +66,8 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-secondary text-light">
-              <div class="card-body text-center">
+            <div class="card bg-secondary text-light" style="height: 18rem;">
+              <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-award"></i>
                 </div>
@@ -80,8 +80,8 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-dark text-light">
-              <div class="card-body text-center">
+            <div class="card bg-dark text-light" style="height: 18rem;">
+              <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-clock"></i>
                 </div>
@@ -105,14 +105,16 @@
     <!--About Us-->
     <section id="about-us" class="container p-5" style="text-align: center; font-size: medium;">
       <br>
-      <h4>
+      <p class="h3">
         Na rynku europejskim funkcjonujemy od ponad 10 lat. Zaczynaliśmy od jednego składu i obsługiwaliśmy głównie
         Europę Wschodnią, a obecnie posiadamy ich kilkanaście, dzięki czemu docieramy w najdalsze zakątki Europy.
         Wyspecjalizowaliśmy się w transporcie kontenerowym, posiadamy też chłodnie oraz plandeki. Naszym najmłodszym
         dzieckiem jest spedycja,
         która bardzo szybko się rozwija; robimy kilkaset zleceń miesięcznie, a nasz zespół stale się powiększa.
         Terminowość, dbałość o szczegóły i bezpieczeństwo transportu gwarantują ciągły rozwój naszej firmy.
-      </h4>
+      </p>
+
+
 
     </section>
 
@@ -165,13 +167,14 @@
           <div class="col-md p-5">
             <h3>Potrzebujesz transportu?</h3>
             <br>
-            <p>Naszą misją jest pomaganie innym. Jeżeli potrzebujesz transportu, chętnie Ci pomożemy. Zapraszamy do
+            <p class="lead">Naszą misją jest pomaganie innym. Jeżeli potrzebujesz transportu, chętnie Ci pomożemy.
+              Zapraszamy do
               kontaktu z naszym działem spedycyjnym. <br><b>Gwarantujemy 100% satysfakcji!</b></p>
           </div>
           <div class="col-md p-5">
             <h3>Szukasz pracy?</h3>
             <br>
-            <p>Jeżeli masz doświadczenie w spedycji lub chcesz zacząć przygodę w tym kierunku, napisz do
+            <p class="lead">Jeżeli masz doświadczenie w spedycji lub chcesz zacząć przygodę w tym kierunku, napisz do
               nas.<br><b>Możemy rozwijać się razem!</b>
             </p>
           </div>
@@ -187,43 +190,54 @@
     <!--Contact-->
     <section id="contact" class="p-2">
       <div class="container">
+        <br>
         <div class="row g-2">
+
           <h2 class="text-center mb-4">Kontakt</h2>
           <div class="col-md">
             <h4 style="font-size:larger">Dział spedycji</h4>
             <ul class=" list-group list-group-flush lead" style="font-size:large">
               <li class="list-group-item"><span class="fw-bold">Daniel Woliński</span>
-                502 992 600</li>
+                <a href="tel:+48502992600" style="text-decoration: none; color: black;">502992600</a>
+              </li>
               <li class="list-group-item"><span class="fw-bold">Tomasz Kurowski</span>
-                577 567 267</li>
+                <a href="tel:+48577567267" style="text-decoration: none; color: black;">577567267</a>
+              </li>
             </ul>
             <br>
             <h4 style="font-size:larger">Dział administracyjny</h4>
             <ul class="list-group list-group-flush lead" style="font-size:large">
               <li class=" list-group-item"><span class="fw-bold">Marlena Porowska</span>
-                517 320 488</li>
+                <a href="tel:+48517320488" style="text-decoration: none; color: black;">517320488
+              </li>
               <li class="list-group-item"><span class="fw-bold">Ewelina Wysokińska</span>
-                534 456 756</li>
+                <a href="tel:+48534456756" style="text-decoration: none; color: black;">534456756</a>
+              </li>
               <li class="list-group-item"><span class="fw-bold">Wiktoria Jędrzejewska</span>
-                518 909 772</li>
+                <a href="tel:+48518909772" style="text-decoration: none; color: black;">518909772</a>
+              </li>
             </ul>
             <br>
             <h4 style="font-size:larger">Dział księgowy</h4>
             <ul class="list-group list-group-flush lead" style="font-size:large">
               <li class=" list-group-item"><span class="fw-bold">Kamila Wolińska</span>
-                796 389 045</li>
+                <a href="tel:+48796389045" style="text-decoration: none; color: black;">796389045</a>
+              </li>
             </ul>
           </div>
-          <div class="col-md p-2" style="width: 100%">
+          <div class="col-md">
             <div col-md>
               <ul class="list-group list-group-flush lead" style="font-size:large">
                 <li class=" list-group-item">
-                  <span class="fw-bold">Adres korespondencyjny</span> Trzebieszów-Kolonia 72, 21-404 Trzebieszów
+                  <h4 style="font-size:large">Adres korespondencyjny </h4>
+                  Trzebieszów-Kolonia 72, 21-404 Trzebieszów
                 <li class="list-group-item">
-                  <span class="fw-bold">Adres siedziby biura</span> Trzebieszów Drugi 12, 21-404 Trzebieszów
+                  <h4 style="font-size:large">Adres siedziby biura </h4>
+                  Trzebieszów Drugi 12, 21-404 Trzebieszów
                 </li>
                 </li>
                 <li class="list-group-item">
+
                   <span class="fw-bold">Email</span> wol.transwolinski@gmail.com
                 </li>
                 <li class="list-group-item">
