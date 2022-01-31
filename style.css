@@ -6,11 +6,12 @@
 }
 
 .photo {
-  height: 1100px;
+  height: auto;
   width: 100%;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center;
-  background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("./img/w-t.jpg");
 } 
 
@@ -26,5 +27,3 @@
     height: 600px;
   }
 }
-
-
