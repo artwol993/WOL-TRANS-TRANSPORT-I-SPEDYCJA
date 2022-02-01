@@ -6,14 +6,22 @@
 }
 
 .photo {
-  height: auto;
+  height: 900px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("./img/w-t.jpg");
-} 
+}
+
+.photo-1 {
+  background-image: url("./img/photo-1.jpg");
+}
+
+.photo-2 {
+  background-image: url("./img/photo-2.jpg");
+}
+
 
 @media (max-width: 576px) {
   .photo {
