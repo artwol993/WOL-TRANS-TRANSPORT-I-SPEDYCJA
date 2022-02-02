@@ -24,13 +24,13 @@
 
 @media (max-width: 576px) {
   .photo {
-    height:450px;
+    height:350px;
   }
 }
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .photo {
     height: 600px;
   }
-}
+} */
