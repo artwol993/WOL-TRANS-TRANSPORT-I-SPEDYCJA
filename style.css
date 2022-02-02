@@ -6,6 +6,7 @@
 }
 
 .photo {
+  height: 900px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,7 +18,6 @@
 }
 
 .photo-2 {
-  height: 800px;
   background-image: url("./img/photo-2.jpg");
 }
 
