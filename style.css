@@ -6,7 +6,7 @@
 }
 
 .photo {
-  height: 900px;
+  height: 1100px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,20 +25,20 @@
   height: 18rem;
 }
 
-@media screen and (max-width: 576px) {
+@media (min-width: 576px) {
   .photo {
     height:350px;
     background-attachment: scroll;
   }
 }
 
-@media screen and (max-width:768px){
+@media (min-width:768px){
   .photo {
     height: 600px;
   }
 
   .adv-card {
-    height: 24rem;
+    height: 22rem;
   }
 }
 
