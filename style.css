@@ -21,6 +21,11 @@
   background-image: url("./img/photo-2.jpg");
 }
 
+.custom-bg {
+  background-color: #5e5e5e!important;
+}
+
+
 .adv-card {
   height: 22rem;
 }

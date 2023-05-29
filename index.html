@@ -10,7 +10,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="./style.css">
-  <script src="https://skrypt-cookies.pl/id/98c6f009b53161be.js"></script>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d744e08e-f4fc-43fd-80e2-18a3c373eadd" data-blockingmode="auto" type="text/javascript"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-76LSK4KKEX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-76LSK4KKEX');
+  </script>
 
 
   <meta name="description" content="
@@ -23,21 +31,22 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
     <div class="container">
-      <a href="#" class="navbar-brand">
+      <a href="#" class="navbar-brand" aria-label="home">
         <img src="/img/logo.png" alt="" width="120" height="auto">
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Toggle navigation</span>
+    </button>
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="#welcome" class="nav-link"> Start </a></li>
-          <li class="nav-item"><a href="#about-us" class="nav-link"> O nas</a></li>
-          <li class="nav-item"><a href="#specialization" class="nav-link"> Nasze specjalizacje</a></li>
-          <li class="nav-item"><a href="#cooperation" class="nav-link"> Współpraca</a></li>
-          <li class="nav-item"><a href="#contact" class="nav-link"> Kontakt </a></li>
+          <li class="nav-item"><a href="#welcome" class="nav-link" aria-label="welcome"> Start </a></li>
+          <li class="nav-item"><a href="#about-us" class="nav-link" aria-label="about-us"> O nas</a></li>
+          <li class="nav-item"><a href="#specialization" class="nav-link" aria-label="specialization"> Nasze
+              specjalizacje</a></li>
+          <li class="nav-item"><a href="#cooperation" class="nav-link" aria-label="cooperation"> Współpraca</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link" aria-label="contact"> Kontakt </a></li>
         </ul>
       </div>
 
@@ -48,7 +57,7 @@
 
     <!--Welcome-->
     <section id="welcome">
-      <img src="./img/logo.jpg" class="img-fluid" alt="WOL-TRANS Transport i spedycja"
+      <img src="./img/logo.avif" class="img-fluid" alt="WOL-TRANS Transport i spedycja"
         tittle="WOL-TRANS Transport i spedycja">
     </section>
 
@@ -72,7 +81,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-secondary text-light adv-card">
+            <div class="card bg-secondary text-light custom-bg adv-card">
               <div class="card-body text-center d-flex flex-column justify-content-center align-items-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-award"></i>
@@ -124,7 +133,7 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img src="img/spedycja.jpg" class="img-fluid" alt="spedycja-obraz" />
+            <img src="img/spedycja.avif" class="img-fluid" alt="spedycja-obraz" />
           </div>
           <div class="col-md">
             <br>
@@ -132,7 +141,7 @@
             <br>
             <p class="lead text-center">
               Współpracujemy z wieloma firmami transportowymi, dzięki czemu mamy szeroki wachlarz rodzajów transportu —
-              obsługujemy prawie każdy środek transportu lądowego. Niestraszne są nam oładunki, ładunki bezpośrednie,
+              obsługujemy prawie każdy środek transportu lądowego. Niestraszne są nam doładunki, ładunki bezpośrednie,
               całopojazdowe, chłodnicze, ponadgabarytowe czy ADR. Ponadto posiadamy ubezpieczenie obejmujące aż <b>1 000
                 000 PLN</b> na każdy transport.
             </p>
@@ -156,7 +165,7 @@
             </p>
           </div>
           <div class="col-md">
-            <img src="img/transport-miedzynarodowy.jpg" class="img-fluid" alt="transport-miedzynarodowy-obraz" />
+            <img src="img/transport-miedzynarodowy.avif" class="img-fluid" alt="transport-miedzynarodowy-obraz" />
           </div>
         </div>
       </div>
@@ -196,26 +205,35 @@
             <ul class=" list-group list-group-flush lead" style="font-size:large">
               <li class="list-group-item">
                 <h4 style="font-size:larger">Dział spedycji</h4><span class="fw-bold">Daniel Woliński</span>
-                <a href="tel:+48502992600" class="text-dark text-decoration-none">502992600</a>
+                <a href="tel:+48502992600" aria-label="phone-number"
+                  class="text-dark text-decoration-none">502992600</a>
               </li>
               <li class=" list-group-item"><span class="fw-bold">Tomasz Kurowski</span>
-                <a href="tel:+48577567267" class="text-dark text-decoration-none">577567267</a>
+                <a href="tel:+48577567267" aria-label="phone-number"
+                  class="text-dark text-decoration-none">577567267</a>
+              </li>
+              <li class=" list-group-item"><span class="fw-bold">Hubert Bąk</span>
+                <a href="tel:+48531259357" aria-label="phone-number"
+                  class="text-dark text-decoration-none">531259357</a>
               </li>
             </ul>
             <br>
             <ul class="list-group list-group-flush lead" style="font-size:large">
               <li class=" list-group-item">
                 <h4 style="font-size:larger">Dział administracyjny</h4>
-                <span class="fw-bold">Marlena Porowska</span>
-                <a href="tel:+48517320488" class="text-dark text-decoration-none">517320488</a>
+                <span class="fw-bold">Marlena Porowska / Edyta Gałecka</span>
+                <a href="tel:+48517320488" aria-label="phone-number"
+                  class="text-dark text-decoration-none">517320488</a>
               </li>
               <li class="list-group-item">
                 <span class="fw-bold">Ewelina Wysokińska</span>
-                <a href="tel:+48534456756" class="text-dark text-decoration-none">534456756</a>
+                <a href="tel:+48534456756" aria-label="phone-number"
+                  class="text-dark text-decoration-none">534456756</a>
               </li>
               <li class="list-group-item">
-                <span class="fw-bold">Wiktoria Jędrzejewska</span>
-                <a href="tel:+48518909772" class="text-dark text-decoration-none">518909772</a>
+                <span class="fw-bold">Marta Krasuska</span>
+                <a href="tel:+48518909772" aria-label="phone-number"
+                  class="text-dark text-decoration-none">518909772</a>
               </li>
             </ul>
             <br>
@@ -223,7 +241,8 @@
               <li class=" list-group-item">
                 <h4 style="font-size:larger">Dział księgowy</h4>
                 <span class="fw-bold">Kamila Wolińska</span>
-                <a href="tel:+48796389045" class="text-dark text-decoration-none">796389045</a>
+                <a href="tel:+48796389045" aria-label="phone-number"
+                  class="text-dark text-decoration-none">796389045</a>
               </li>
             </ul>
             <br>
@@ -256,7 +275,7 @@
 
     <section>
       <div style="width: 100%">
-        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        <iframe title="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
           src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Trzebiesz%C3%B3w-Kolonia%2072+(My%20Business%20Name)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
             href="https://www.gps.ie/golf-gps/">wol-trans-map</a>
         </iframe>
@@ -268,11 +287,11 @@
     <footer class="p-3 bg-dark text-white text-center position-relative">
       <div class="container d-flex">
         <div class="footer-container"></div>
-        <a href="https://www.instagram.com/woltrans/" class="h1 m-1" style="cursor: pointer;">
+        <a href="https://www.instagram.com/woltrans/" aria-label="instagram" class="h1 m-1" style="cursor: pointer;">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/Wol-Trans-Transport-i-Spedycja-112151921369846" class="h1 m-1"
-          style="cursor: pointer;">
+        <a href="https://www.facebook.com/Wol-Trans-Transport-i-Spedycja-112151921369846" aria-label="facebook"
+          class="h1 m-1" style="cursor: pointer;">
           <i class="bi bi-facebook"></i>
         </a>
         <a href="#" class="position-absolute bottom-0 end-0 p-3">
@@ -288,4 +307,4 @@
     </script>
 </body>
 
-</html>
+</html>				
