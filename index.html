@@ -9,36 +9,70 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   <link rel="icon" type="image/x-icon" href="./favicon.ico">
-  <link rel="stylesheet" href="./style.css">
-  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d744e08e-f4fc-43fd-80e2-18a3c373eadd" data-blockingmode="auto" type="text/javascript"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-76LSK4KKEX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <style>
+    #map {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
 
-    gtag('config', 'G-76LSK4KKEX');
-  </script>
+    .photo {
+      height: 900px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .photo-1 {
+      background-image: url("./img/photo-1.jpg");
+    }
+
+    .photo-2 {
+      background-image: url("./img/photo-2.jpg");
+    }
+
+    .custom-bg {
+      background-color: #5e5e5e !important;
+    }
 
 
-  <meta name="description" content="
-  transport międzynarodowy, kontenerowy, firma transportowa, woltrans, wol trans, Łuków, Siedlce, Terespol, Warszawa, Polska, spedycja, Niemcy, Hiszpania, Czechy,
-  ">
-  <title>WOL-TRANS TRANSPORT I SPEDYCJA | firma transportowa, woltrans</title>
+    .adv-card {
+      height: 22rem;
+    }
+
+    @media (max-width: 576px) {
+      .photo {
+        height: 350px;
+        background-attachment: scroll;
+      }
+
+      .adv-card {
+        height: 18rem;
+      }
+    }
+  </style>
+
+  <meta name="description"
+    content="Profesjonalne usługi spedycyjne i transport drogowy w Polsce i Europie. Specjalizujemy się w transporcie krajowym, międzynarodowym, kontenerowym, chłodniczym, standardowym, całopojazdowym oraz doładunku. Nasza siedziba znajduje się w Trzebieszów, blisko Łukowa, Międzyrzeca Podlaskiego, Siedlec, Radzynia Podlaskiego, Lublina i Warszawy. Jako doświadczona firma transportowa oferujemy konkurencyjne ceny, punktualność i szeroki zakres usług. Współpracujemy z armatorami kontenerowymi, firmami produkującymi towary oraz innymi spedycjami. Zapraszamy do współpracy!">
+
+  <title>WOL-TRANS TRANSPORT I SPEDYCJA | firma transportowa, spedycja międzynarodowa, transport kontenerowy, woltrans,
+    wol trans </title>
 </head>
 
 <body>
+
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-light navbar-light sticky-top">
     <div class="container">
       <a href="#" class="navbar-brand" aria-label="home">
-        <img src="/img/logo.png" alt="" width="120" height="auto">
+        <img src="/img/logo.png" alt="WOL-TRANS Logo" width="120" height="auto">
       </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-      <span class="navbar-toggler-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Toggle navigation</span>
-    </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a href="#welcome" class="nav-link" aria-label="welcome"> Start </a></li>
@@ -57,8 +91,8 @@
 
     <!--Welcome-->
     <section id="welcome">
-      <img src="./img/logo.avif" class="img-fluid" alt="WOL-TRANS Transport i spedycja"
-        tittle="WOL-TRANS Transport i spedycja">
+      <img src="./img/logo.jpg" class="img-fluid" alt="WOL-TRANS Transport and Logistics"
+        tittle="WOL-TRANS Transport and Logistics" tittle="WOL-TRANS Transport i spedycja">
     </section>
 
 
@@ -133,7 +167,8 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md">
-            <img src="img/spedycja.avif" class="img-fluid" alt="spedycja-obraz" />
+            <img src="img/spedycja.jpg" class="img-fluid"
+              alt="Spedycja międzynarodowa WOL-TRANS Transport i spedycja" />
           </div>
           <div class="col-md">
             <br>
@@ -165,7 +200,7 @@
             </p>
           </div>
           <div class="col-md">
-            <img src="img/transport-miedzynarodowy.avif" class="img-fluid" alt="transport-miedzynarodowy-obraz" />
+            <img src="img/transport-miedzynarodowy.jpg" class="img-fluid" alt="transport-miedzynarodowy-obraz" />
           </div>
         </div>
       </div>
@@ -205,15 +240,15 @@
             <ul class=" list-group list-group-flush lead" style="font-size:large">
               <li class="list-group-item">
                 <h4 style="font-size:larger">Dział spedycji</h4><span class="fw-bold">Daniel Woliński</span>
-                <a href="tel:+48502992600" aria-label="phone-number"
+                <a href="tel:+48502992600" aria-label="Call Daniel Woliński at 502992600"
                   class="text-dark text-decoration-none">502992600</a>
               </li>
               <li class=" list-group-item"><span class="fw-bold">Tomasz Kurowski</span>
-                <a href="tel:+48577567267" aria-label="phone-number"
+                <a href="tel:+48577567267" aria-label="Call Tomasz Kurowski at 577567267"
                   class="text-dark text-decoration-none">577567267</a>
               </li>
               <li class=" list-group-item"><span class="fw-bold">Hubert Bąk</span>
-                <a href="tel:+48531259357" aria-label="phone-number"
+                <a href="tel:+48531259357" aria-label="Call Hubert Bąk at 531259357"
                   class="text-dark text-decoration-none">531259357</a>
               </li>
             </ul>
@@ -222,17 +257,17 @@
               <li class=" list-group-item">
                 <h4 style="font-size:larger">Dział administracyjny</h4>
                 <span class="fw-bold">Marlena Porowska / Edyta Gałecka</span>
-                <a href="tel:+48517320488" aria-label="phone-number"
+                <a href="tel:+48517320488" aria-label="Call Marlena Porowska / Edyta Gałecka at 517320488"
                   class="text-dark text-decoration-none">517320488</a>
               </li>
               <li class="list-group-item">
                 <span class="fw-bold">Ewelina Wysokińska</span>
-                <a href="tel:+48534456756" aria-label="phone-number"
+                <a href="tel:+48534456756" aria-label="Call Ewelina Wysokińska at 534456756"
                   class="text-dark text-decoration-none">534456756</a>
               </li>
               <li class="list-group-item">
                 <span class="fw-bold">Marta Krasuska</span>
-                <a href="tel:+48518909772" aria-label="phone-number"
+                <a href="tel:+48518909772" aria-label="Call Marta Krasuska at 518909772"
                   class="text-dark text-decoration-none">518909772</a>
               </li>
             </ul>
@@ -241,7 +276,7 @@
               <li class=" list-group-item">
                 <h4 style="font-size:larger">Dział księgowy</h4>
                 <span class="fw-bold">Kamila Wolińska</span>
-                <a href="tel:+48796389045" aria-label="phone-number"
+                <a href="tel:+48796389045" aria-label="Call Kamila Wolińska at 796389045"
                   class="text-dark text-decoration-none">796389045</a>
               </li>
             </ul>
@@ -255,7 +290,7 @@
                   Trzebieszów-Kolonia 72, 21-404 Trzebieszów
                 <li class="list-group-item">
                   <h4 style="font-size:larger">Adres siedziby biura </h4>
-                  Trzebieszów Drugi 12, 21-404 Trzebieszów
+                  Trzebieszów Drugi 91A, 21-404 Trzebieszów
                 </li>
                 </li>
                 <li class="list-group-item">
@@ -274,10 +309,11 @@
     <!--Map-->
 
     <section>
-      <div style="width: 100%">
-        <iframe title="map" width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Trzebiesz%C3%B3w-Kolonia%2072+(My%20Business%20Name)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
-            href="https://www.gps.ie/golf-gps/">wol-trans-map</a>
+      <div style="width: 100vw">
+        <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=51.991082124091555,%2022.554772437316164+(WOL-TRANS%20Transport%20i%20Spedycja)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          title="map">
+          <a href="https://www.maps.ie/distance-area-calculator.html">WOL-TRANS Transport i Spedycja</a>
         </iframe>
       </div>
     </section>
@@ -287,11 +323,12 @@
     <footer class="p-3 bg-dark text-white text-center position-relative">
       <div class="container d-flex">
         <div class="footer-container"></div>
-        <a href="https://www.instagram.com/woltrans/" aria-label="instagram" class="h1 m-1" style="cursor: pointer;">
+        <a href="https://www.instagram.com/woltrans/" aria-label="Visit our Instagram page" class="h1 m-1"
+          style="cursor: pointer;">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/Wol-Trans-Transport-i-Spedycja-112151921369846" aria-label="facebook"
-          class="h1 m-1" style="cursor: pointer;">
+        <a href="https://www.facebook.com/Wol-Trans-Transport-i-Spedycja-112151921369846"
+          aria-label="Visit our Facebook page" class="h1 m-1" style="cursor: pointer;">
           <i class="bi bi-facebook"></i>
         </a>
         <a href="#" class="position-absolute bottom-0 end-0 p-3">
@@ -307,4 +344,15 @@
     </script>
 </body>
 
-</html>				
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d744e08e-f4fc-43fd-80e2-18a3c373eadd"
+  data-blockingmode="auto" type="text/javascript" aria-label="Dowiedz się więcej o Cookiebot"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-76LSK4KKEX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-76LSK4KKEX');
+</script>
+
+</html>
