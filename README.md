@@ -1,5 +1,7 @@
-# WOL-TRANS
+#  WOL-TRANS  TRANSPORT I SPEDYCJA company
 
-webpage build for WOL-TRANS  TRANSPORT I SPEDYCJA company
+https://www.wol-trans.pl/
 
-Made by Artur Wolinski, artwol993@gmail.com
+wizytówka WOL-TRANS  TRANSPORT I SPEDYCJA company
+
+Autor Artur Wolinski, artwol993@gmail.com
